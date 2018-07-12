@@ -1,0 +1,30 @@
+{
+  "name": "blinkie",
+  "version": "1.0.0",
+  "description": "App for controlling blinkstick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversemix/blinkie.git"
+  },
+  "keywords": [
+    "blink",
+    "stick",
+    "blinkstick",
+    "react",
+    "js",
+    "node"
+  ],
+  "author": "Peter Hooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversemix/blinkie/issues"
+  },
+  "homepage": "https://github.com/diversemix/blinkie#readme",
+  "dependencies": {
+    "blinkstick": "^1.1.3"
+  }
+}
