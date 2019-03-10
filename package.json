@@ -14,11 +14,10 @@
     "blink",
     "stick",
     "blinkstick",
-    "react",
     "js",
     "node"
   ],
-  "author": "Peter Hooper",
+  "author": "diversemix",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/diversemix/blinkie/issues"
