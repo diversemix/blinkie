@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "blinkie"
+version = "0.1.0"
+description = "A long running program to do some checks"
+authors = ["diversemix <diversemix@gmail.com>"]
+readme = "README.md"
+packages = [{include = "blinkie"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyusb = "^1.2.1"
+blinkstick = "^1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[tool.poetry.scripts]
+blinkie = "blinkie.cli:start"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
